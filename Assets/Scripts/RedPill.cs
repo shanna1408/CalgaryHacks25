@@ -171,7 +171,7 @@ public class RedPill : MonoBehaviour
 	private void setupGui()
 	{
 		guiStyle = new GUIStyle();
-		guiStyle.fontSize = 16;
+		guiStyle.fontSize = 30;
 		guiStyle.fontStyle = FontStyle.Bold;
 		guiStyle.normal.textColor = Color.white;
 	}
@@ -195,7 +195,7 @@ public class RedPill : MonoBehaviour
 	{
 		if (showInteractMsg)  //show on-screen prompts to user for guide.
 		{
-			GUI.Label(new Rect (50,Screen.height - 60,200,50), msg,guiStyle);
+			GUI.Label(new Rect (50,Screen.height - 105,200,50), msg,guiStyle);
 		}
 	}		
 	//End of GUI Config --------------

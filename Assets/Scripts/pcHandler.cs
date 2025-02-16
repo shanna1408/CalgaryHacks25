@@ -132,6 +132,7 @@ public class pcHandler : MonoBehaviour
 								pswd.text = "Password Accepted. All systems down. Doors Unlocked.";
 							}
 							else {
+								Debug.Log(passwordAttempt);
 								passwordAttempt = "";
 								pswd.text = "Password Rejected. Enter Password: ";
 							}
